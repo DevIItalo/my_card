@@ -105,23 +105,85 @@ div.skill {
     justify-content: space-around;
     margin-top: 10px;
 }
-
-ul.list__skill img {
-    max-width: 20px;
-    max-height: 20px;
-    margin-right: 5px;
+div.img-style {
+    border-radius: 4px 4px 10px 10px;
     cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
 }
-img.html:hover {
+
+div.h-img {
+    background: url(/img/icons8-html-5-35.png) no-repeat center;
+    background-size: contain;
+}
+
+div.c-img {
+    background: url(/img/icons8-css3-35.png) no-repeat center;
+    background-size: contain;
+}
+
+div.js-img {
+    background: url(/img/icons8-logotipo-javascript-35.png) center;
+    background-size: contain;
+}
+
+ul.list__skill li {
+    display: flex;
+    align-items: center;
+}
+
+li p.p_style {
+    font-family: var(--font_roboto);
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+div.h-img:hover {
     background-color: orangered;
 }
 
-img.css:hover {
+li p.h-p:hover {
+    border-bottom: 1px solid orangered;
+}
+
+div.c-img:hover {
     background-color: var(--cor4);
 }
 
-img.js:hover {
+li p.c-p:hover {
+    border-bottom: 1px solid var(--cor4);
+}
+
+div.js-img:hover {
     background-color: orange;
+}
+
+li p.js-p:hover {
+    border-bottom: 1px solid orange;
+}
+
+span.circulo {
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+span.circulo_black {
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.ul__abilidade li {
+    display: flex;
+    align-items: center;
+
 }
 
 /*
